@@ -97,7 +97,7 @@ const Contact = () => {
       </div>
       <div className="relative h-full w-full flex justify-center  xl:justify-normal">
         <div className="w-full xl:w-1/2">
-          <div id="contact-anime" className="bg-transparent special-font border border-primary my-14 max-w-[380px] mx-auto p-7 rounded-xl shadow-card ">
+          <div id="contact-anime" className="bg-transparent special-font sm:border border-primary my-14 max-w-[380px] mx-auto p-7 rounded-xl shadow-card ">
             <p className={`${styles.sectionSubText}`} >Get in touch</p>
             <h2 className={`${styles.sectionHeadText} mb-3`}><b>C</b>ontact.</h2>
             <form

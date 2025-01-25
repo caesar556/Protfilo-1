@@ -34,7 +34,7 @@ const CardElement = ({ title, index, icon }) => {
   }, [index]);
   return (
     <div ref={cardRef} >
-      <Tilt className="w-full w-[250px] xs:w-[250px]">
+      <Tilt className="w-[250px] xs:w-[250px]">
         <div
           className="shadow-card p-[1px] rounded-[20px] green-pink-gradient"
         >
