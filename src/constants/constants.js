@@ -117,7 +117,7 @@ const experiences = [
     ],
   },
   {
-    title: "Exploring Backend Development with Express.js",
+    title: "Backend Development",
     icon: nodejs,
     iconBg: "#22C55E",
     date: "January 2024 - December 2024",
