@@ -2,6 +2,7 @@ import { styles } from "../utils/styles";
 import { useState, useRef, useEffect } from 'react';
 import Loader from './Loader';
 import gsap from "gsap";
+import { authLogo } from '../assets/';
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
 
@@ -77,6 +78,8 @@ const Hero = () => {
             autoPlay
             loop
             muted
+            preload="auto"
+            poster={authLogo}
             onLoadedData={handleLoading}
           />
         </div>
