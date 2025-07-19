@@ -10,6 +10,7 @@ import { experiences } from '../constants/constants';
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import { authLogo } from '../assets';
 
 
 gsap.registerPlugin(ScrollTrigger);
@@ -132,6 +133,8 @@ const Story = () => {
           src="/videos/story.mp4" type="video/mp4"
           autoPlay
           loop
+          preload="auto"
+          poster={authLogo}
           muted
           onLoadedData={handleLoading}
         />
