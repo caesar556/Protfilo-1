@@ -1,4 +1,4 @@
-import { logo } from '../assets';
+import { authLogo } from '../assets';
 import { FaFacebook } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa";
@@ -24,7 +24,7 @@ const Footer = () => {
   return (
     <footer className="py-2 px-4 bg-black flex justify-between">
       <div id="icons-anime" className="flex gap-4 items-center w-1/2 px-3">
-        <img className="w-12 h-12 object-contain border-2 border-purple-800 rounded-full" src={logo} />
+        <img className="w-14 h-14 object-contain border-2 border-red-800 rounded-full" src={authLogo} />
         <p className=" text-[18px] w-full cursor-pointer text-white font-bold flex items-center special-font">
           Belal&nbsp;
           <b className='sm:block hidden text-[#ff0000] '>♤ Hussien</b>
