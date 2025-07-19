@@ -15,7 +15,7 @@ import icon2 from "./icon2.png";
 import icon3 from "./icon3.png";
 import icon4 from "./icon4.png";
 import project1 from './peakpx.jpg';
-
+import authLogo from './authLogo.png';
 
 
 
@@ -36,5 +36,6 @@ export {
   icon2,
   icon3,
   icon4,
-  project1
+  project1,
+  authLogo
 };
