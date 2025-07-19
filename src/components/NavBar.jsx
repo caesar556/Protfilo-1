@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { logo } from '../assets';
+import { authLogo } from '../assets';
 import { styles } from "../utils/styles";
 import { navLinks } from '../constants/constants';
 import MobileNav from './MobileNav';
@@ -76,7 +76,7 @@ const NavBar = () => {
             }
           }
         >
-          <img className="w-12 h-12 object-contain border-2 border-purple-800 rounded-full" src={logo} />
+          <img className="w-12 h-12 object-contain border-2 border-purple-800 rounded-full" src={authLogo} />
           <p id="p-nav" className="text-[18px] cursor-pointer text-white font-bold flex special-font">
             Belal&nbsp;
             <b className='sm:block hidden text-[#ff0000] '>♤ Hussien</b>
