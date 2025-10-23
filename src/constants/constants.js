@@ -13,24 +13,23 @@ import {
   icon4,
   mongodb,
   git,
-  project1
+  project1,
 } from "../assets";
-
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home"
+    title: "Home",
   },
   {
     id: "about",
-    title: "About"
+    title: "About",
   },
   {
     id: "contact",
-    title: "Contact"
+    title: "Contact",
   },
-]
+];
 
 const services = [
   {
@@ -49,59 +48,58 @@ const services = [
     title: "Software Designer",
     icon: icon4,
   },
-
 ];
 
 const technologies = [
   {
     name: "HTML 5",
     icon: html,
-    borderColor: "border-orange-800"
+    borderColor: "border-orange-800",
   },
   {
     name: "CSS 3",
     icon: css,
-    borderColor: "border-sky-700"
+    borderColor: "border-sky-700",
   },
   {
     name: "JavaScript",
     icon: javascript,
-    borderColor: "border-yellow-400"
+    borderColor: "border-yellow-400",
   },
   {
     name: "TypeScript",
     icon: typescript,
-    borderColor: "border-sky-700"
+    borderColor: "border-sky-700",
   },
   {
     name: "React JS",
     icon: reactjs,
-    borderColor: "border-sky-400"
+    borderColor: "border-sky-400",
   },
   {
     name: "Redux Toolkit",
     icon: redux,
-    borderColor: "border-purple-700"
+    borderColor: "border-purple-700",
   },
   {
     name: "Tailwind CSS",
     icon: tailwind,
-    borderColor: "border-sky-400"
+    borderColor: "border-sky-400",
   },
   {
     name: "Node JS",
     icon: nodejs,
-    borderColor: "border-green-600"
+    borderColor: "border-green-600",
   },
   {
     name: "MongoDB",
     icon: mongodb,
-    borderColor: "border-green-700"
+    borderColor: "border-green-700",
   },
   {
     name: "git",
     icon: git,
-    borderColor: "border-orange-900"
+    borderColor: "border-orange-900",
   },
 ];
 const experiences = [
@@ -109,7 +107,7 @@ const experiences = [
     title: "Mastering React.js",
     icon: reactjs,
     iconBg: "#4F46E5",
-    date: "May 2023 - December 2024",
+    date: "May 2022 - December 2024",
     points: [
       "Delved into React.js to create dynamic and component-based user interfaces.",
       "Learned state management and how to build reusable, efficient components.",
@@ -120,7 +118,7 @@ const experiences = [
     title: "Backend Development",
     icon: nodejs,
     iconBg: "#22C55E",
-    date: "January 2024 - December 2024",
+    date: "January 2023 - December 2024",
     points: [
       "Ventured into backend development to understand server-side technologies.",
       "Mastered Express.js for building APIs and managing server requests.",
@@ -131,11 +129,12 @@ const experiences = [
 
 const projects = [
   {
-    name: "Crud project",
-    description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "E-commerce Api project",
+    description:
+      "Built a scalable e-commerce backend API using Express.js and MongoDB, featuring JWT authentication, role-based access, and full CRUD operations for products, users, and orders.",
     tags: [
       {
-        name: "react",
+        name: "Express js",
         color: "blue-text-gradient",
       },
       {
@@ -143,16 +142,17 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "MongoDB",
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://github.com/",
+    image: "/images/project1.jpg",
+    source_code_link: "https://github.com/caesar556/E-App-v01",
   },
   {
-    name: "Admin Dashboard",
-    description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "Courses Details Page",
+    description:
+      "Developed a responsive course details page featuring video lessons using React Player, with dynamic content display and progress tracking for a seamless learning experience.",
     tags: [
       {
         name: "react",
@@ -167,15 +167,18 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://github.com/",
+    image: "/images/project2.jpg",
+    source_code_link: "https://github.com/caesar556/It-Legend",
+    secUrl: "https://it-legend-three.vercel.app/",
   },
   {
-    name: "E Shop",
-    description: "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "E-App – E-commerce Web Application",
+
+    description:
+      "Next.js, TailwindCSS, Shadcn, Express.js Built a full-stack eCommerce application with user authentication, role-based access, product management, and dashboards for both users and admins.",
     tags: [
       {
-        name: "react",
+        name: "Next.js",
         color: "blue-text-gradient",
       },
       {
@@ -187,15 +190,10 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: project1,
-    source_code_link: "https://github.com/",
-  }
+    image: "/images/project3.jpg",
+    source_code_link: "https://github.com/caesar556/E-App-v01",
+    secUrl: "https://e-app-v01-48lx.vercel.app/",
+  },
 ];
 
-
-export {
-  services,
-  experiences,
-  technologies,
-  projects
-}
+export { services, experiences, technologies, projects };
