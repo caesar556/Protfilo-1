@@ -79,7 +79,6 @@ const Hero = () => {
             loop
             muted
             preload="auto"
-            poster={authLogo}
             onLoadedData={handleLoading}
           />
         </div>
