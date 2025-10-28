@@ -83,7 +83,6 @@ const Story = () => {
         stagger: 0.05,
         duration: 2.6,
         ease: 'power3.inOut',
-        repeat: -1
       }
     );
     gsap.fromTo(
@@ -134,7 +133,6 @@ const Story = () => {
           autoPlay
           loop
           preload="auto"
-          poster={authLogo}
           muted
           onLoadedData={handleLoading}
         />
