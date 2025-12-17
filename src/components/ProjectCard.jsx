@@ -46,7 +46,7 @@ const ProjectCard = ({
         ref={cardRef}
         className="shadow-card p-[1px] rounded-2xl green-pink-gradient"
       >
-        <section className="w-[400px] h-min-[400] card-color flex flex-col items-center p-3 rounded-2xl">
+        <section className="w-[80%] h-min-[400] card-color flex flex-col items-center p-3 rounded-2xl">
           <div className="w-full  h-[240px]">
             <img
               className=" object-cover h-full w-full rounded-2xl"
